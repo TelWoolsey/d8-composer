@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db8f33a6a0977ad12731d7a4b1dcaee9",
+    "content-hash": "97c0871e1c77ceaca9fb5fbaa99071e2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4298,6 +4298,75 @@
             "time": "2019-12-10T11:53:27+00:00"
         },
         {
+            "name": "uo/uo_banner",
+            "version": "dev-8.x/20.06",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@git.uoregon.edu/wcdm/uo-banner.git",
+                "reference": "3e82e10f302a51c051fd9fcef9783a07a582e91c"
+            },
+            "type": "drupal-module",
+            "authors": [
+                {
+                    "name": "UO Digital Communications",
+                    "homepage": "https://communications.uoregon.edu",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "UO Banner provides a mobile-friendly website banner to UO Drupal sites.",
+            "homepage": "https://communications.uoregon.edu/uobanner-cms-module",
+            "support": {
+                "source": "https://git.uoregon.edu/projects/WCDM/repos/uo-banner/browse"
+            },
+            "time": "2020-06-30T20:49:43+00:00"
+        },
+        {
+            "name": "uo/uo_core",
+            "version": "dev-8.x/20.06",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@git.uoregon.edu/wcdm/uo-core.git",
+                "reference": "1f5abe9d6a731b7050d915d6edefcfe175770f31"
+            },
+            "type": "drupal-module",
+            "authors": [
+                {
+                    "name": "UO Digital Communications",
+                    "homepage": "https://communications.uoregon.edu",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "UO Core provides core assets and functionality for UO sites.",
+            "homepage": "https://communications.uoregon.edu/uobanner-cms-module",
+            "support": {
+                "source": "https://git.uoregon.edu/projects/WCDM/repos/uo-core/browse"
+            },
+            "time": "2020-07-23T23:48:20+00:00"
+        },
+        {
+            "name": "uo/uo_cosmic_theme",
+            "version": "dev-8.x/20.06",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@git.uoregon.edu/uo_drpl_prod/uo-cosmic-theme.git",
+                "reference": "4de7fad9b3378ac2d1d42316e54ccf65d303610c"
+            },
+            "type": "drupal-theme",
+            "authors": [
+                {
+                    "name": "UO Digital Communications",
+                    "homepage": "https://communications.uoregon.edu",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "UO Cosmic Theme is a universal theme for UO Branded sites.",
+            "homepage": "https://communications.uoregon.edu/uobanner-cms-module",
+            "support": {
+                "source": "https://git.uoregon.edu/projects/UO_DRPL_PROD/repos/uo-cosmic-theme/browse"
+            },
+            "time": "2020-07-06T23:36:13+00:00"
+        },
+        {
             "name": "wamania/php-stemmer",
             "version": "1.3",
             "source": {
@@ -4347,7 +4416,10 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/externallinks": 20,
-        "drupal/glossify": 10
+        "drupal/glossify": 10,
+        "uo/uo_banner": 20,
+        "uo/uo_core": 20,
+        "uo/uo_cosmic_theme": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

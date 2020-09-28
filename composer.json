@@ -12,7 +12,19 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        }
+		},
+		{
+			"type": "git",
+			"url": "ssh://git@git.uoregon.edu/uo_drpl_prod/uo-cosmic-theme.git"
+		  },
+		  {
+			"type": "git",
+			"url": "ssh://git@git.uoregon.edu/wcdm/uo-core.git"
+		  },
+		  {
+			"type": "git",
+			"url": "ssh://git@git.uoregon.edu/wcdm/uo-banner.git"
+		  }
     ],
     "require": {
         "composer/installers": "^1.2",
@@ -22,7 +34,10 @@
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/externallinks": "1.x-dev",
-        "drupal/glossify": "^1.0@beta"
+		"drupal/glossify": "^1.0@beta",
+		"uo/uo_banner": "dev-8.x/20.06#8.x-20.06",
+		"uo/uo_core": "dev-8.x/20.06#8.x-20.06",
+		"uo/uo_cosmic_theme": "dev-8.x/20.06#8.x-20.06"
     },
     "conflict": {
         "drupal/drupal": "*"
