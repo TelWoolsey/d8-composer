@@ -12,32 +12,31 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-		},
-		{
-			"type": "git",
-			"url": "ssh://git@git.uoregon.edu/uo_drpl_prod/uo-cosmic-theme.git"
-		  },
-		  {
-			"type": "git",
-			"url": "ssh://git@git.uoregon.edu/wcdm/uo-core.git"
-		  },
-		  {
-			"type": "git",
-			"url": "ssh://git@git.uoregon.edu/wcdm/uo-banner.git"
-		  }
+        }
     ],
     "require": {
         "composer/installers": "^1.2",
-        "drupal/alinks": "^1.1",
+        "drupal/admin_toolbar": "^3.0",
+        "drupal/asset_injector": "^2.7",
+        "drupal/backup_migrate": "^4.1",
+        "drupal/block_aria_landmark_roles": "^1.4",
+        "drupal/ckeditor_abbreviation": "^2.0",
+        "drupal/ckeditor_accessibility_auditor": "^1.0",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
-        "drupal/externallinks": "1.x-dev",
-		"drupal/glossify": "^1.0@beta",
-		"uo/uo_banner": "dev-8.x/20.06#8.x-20.06",
-		"uo/uo_core": "dev-8.x/20.06#8.x-20.06",
-		"uo/uo_cosmic_theme": "dev-8.x/20.06#8.x-20.06"
+        "drupal/d8w3css": "^1.19",
+        "drupal/devel": "^4.1",
+        "drupal/editor_file": "^1.5",
+        "drupal/field_delimiter": "^1.1",
+        "drupal/google_analytics": "^2.5",
+        "drupal/htmlpurifier": "^1.0@RC",
+        "drupal/mayo": "^1.3",
+        "drupal/paragraphs": "^1.12",
+        "drupal/pathauto": "^1.8",
+        "drupal/siteimprove": "^1.10",
+        "drupal/webform": "^6.0"
     },
     "conflict": {
         "drupal/drupal": "*"
