@@ -1,6 +1,0 @@
-# ignore the nodes modules folder
-.vscode/
-vendor
-web
-.editorconfig
-.gitignore
