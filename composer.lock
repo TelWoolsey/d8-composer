@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c39b3a1c621ad347a05a70003965ef9",
+    "content-hash": "64dbf0f2f8fe20cf10065f1e08419d76",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2011,6 +2011,54 @@
             "homepage": "https://www.drupal.org/project/mayo",
             "support": {
                 "source": "https://git.drupalcode.org/project/mayo"
+            }
+        },
+        {
+            "name": "drupal/none_title",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/none_title.git",
+                "reference": "8.x-2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/none_title-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "8f01c41674d1a5732ec7ae30d00dc993de1730f3"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0",
+                    "datestamp": "1595903935",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "matsbla",
+                    "homepage": "https://www.drupal.org/user/2325394"
+                },
+                {
+                    "name": "vlad.dancer",
+                    "homepage": "https://www.drupal.org/user/903844"
+                }
+            ],
+            "description": "This module hides node titles if you enter &lt;none&gt; in title field.",
+            "homepage": "https://www.drupal.org/project/none_title",
+            "support": {
+                "source": "https://git.drupalcode.org/project/none_title"
             }
         },
         {
