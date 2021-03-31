@@ -30,12 +30,12 @@
         "drupal/devel": "^4.1",
         "drupal/editor_file": "^1.5",
         "drupal/field_delimiter": "^1.1",
+        "drupal/file_delete": "^1.0",
         "drupal/google_analytics": "^2.5",
         "drupal/htmlpurifier": "^1.0@RC",
         "drupal/none_title": "^2.0",
         "drupal/paragraphs": "^1.12",
         "drupal/pathauto": "^1.8",
-        "drupal/simplenews": "^2.0@beta",
         "drupal/siteimprove": "^1.10",
         "drupal/superfish": "^1.4",
         "drupal/webform": "^6.0"
